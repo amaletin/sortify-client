@@ -1,0 +1,68 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "id": 1,
+      "name": "Pablo Honey",
+      "artist": "Radiohead",
+      "tracknum": 12,
+      "year": 1993
+    },
+    {
+      "id": 2,
+      "name": "The Bends",
+      "artist": "Radiohead",
+      "tracknum": 12,
+      "year": 1995
+    },
+    {
+      "id": 3,
+      "name": "OK Computer",
+      "artist": "Radiohead",
+      "tracknum": 12,
+      "year": 1997
+    },
+    {
+      "id": 4,
+      "name": "Kid A",
+      "artist": "Radiohead",
+      "tracknum": 11,
+      "year": 2000
+    },
+    {
+      "id": 5,
+      "name": "Amnesiac",
+      "artist": "Radiohead",
+      "tracknum": 11,
+      "year": 2001
+    },
+    {
+      "id": 6,
+      "name": "Hail to the Thief",
+      "artist": "Radiohead",
+      "tracknum": 14,
+      "year": 2003
+    },
+    {
+      "id": 7,
+      "name": "In Rainbows",
+      "artist": "Radiohead",
+      "tracknum": 10,
+      "year": 2007
+    },
+    {
+      "id": 8,
+      "name": "The King of Limbs",
+      "artist": "Radiohead",
+      "tracknum": 8,
+      "year": 2011
+    },
+    {
+      "id": 9,
+      "name": "A Moon Shaped Pool",
+      "artist": "Radiohead",
+      "tracknum": 11,
+      "year": 2016
+    }
+  ]
+}
