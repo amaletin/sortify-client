@@ -1,0 +1,26 @@
+defaults: &defaults
+  working_directory: ~/sortify-client
+  resourse_class: small
+  docker:
+    - image: circleci/node:lts
+
+version 2.1
+jobs:
+  build:
+    <<: defaults
+    environment:
+      - NODE_ENV: development
+    steps:
+      - checkout
+      - run:
+          name: Say hello
+          command: echo Hello
+      - run:
+          name: ls
+          command: ls
+
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build
