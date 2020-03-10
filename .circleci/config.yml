@@ -28,7 +28,7 @@ jobs:
   test:
     <<: *defaults
     steps:
-      - attach_to_workspace:
+      - attach_workspace:
         at: ~/sortify-client
       - run:
           name: ls
