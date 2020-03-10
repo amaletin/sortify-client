@@ -21,9 +21,15 @@ jobs:
       - run:
           name: ls
           command: ls
+      - persist_to_workspace:
+          root: ~/sortify-client
+          path:
+            - .
   test:
     <<: *defaults
     steps:
+      - attach_to_workspace:
+        at: ~/sortify-client
       - run:
           name: ls
           command: ls
