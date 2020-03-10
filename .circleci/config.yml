@@ -13,14 +13,25 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install dependencies
+          command: npm ci
+      - run:
           name: Say hello
           command: echo Hello
       - run:
           name: ls
           command: ls
-
+  test:
+    <<: *defaults
+    steps:
+      - run:
+          name: ls
+          command: ls
 workflows:
   version: 2.1
   build_and_test:
     jobs:
       - build
+      - test:
+          requires:
+            - build
