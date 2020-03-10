@@ -1,13 +1,13 @@
 defaults: &defaults
   working_directory: ~/sortify-client
-  resourse_class: small
+  resource_class: small
   docker:
     - image: circleci/node:lts
 
-version 2.1
+version: 2.1
 jobs:
   build:
-    <<: defaults
+    <<: *defaults
     environment:
       - NODE_ENV: development
     steps:
